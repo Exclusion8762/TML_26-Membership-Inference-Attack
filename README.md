@@ -1,7 +1,7 @@
 # Membership Inference Attack — TML 2026
 
 Repository for the Membership Inference Attack assignment from the 
-Trustworthy Machine Learning course (2026), CISPA / Saarland University.
+Trustworthy Machine Learning course (2026).
 
 ## Best Result
 
