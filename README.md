@@ -8,15 +8,17 @@ Trustworthy Machine Learning course (2026).
 **TPR@5%FPR: 0.05232** — achieved using LiRA (Carlini et al., 2022)
 
 ## Repository Structure
-.
-├── conf.py              # Confidence-based attack
-├── 3_feature.py         # Three-feature attack (confidence + neg-loss + entropy)
-├── rmia.py              # RMIA attack (Zarifzadeh et al., 2023)
-├── lira_utils.py        # Shared utilities (model, logit scoring, Gaussian functions)
-├── lira_shadows.py      # Train shadow models + collect scores
-├── lira_pub_eval.py     # Evaluate LiRA on pub.pt (local validation)
-├── lira_sub.py          # Score priv.pt + generate submission.csv
-└── README.md
+
+| File | Description |
+|---|---|
+| `conf.py` | Confidence-based attack |
+| `3_feature.py` | Three-feature attack (confidence + neg-loss + entropy) |
+| `rmia.py` | RMIA attack (Zarifzadeh et al., 2023) |
+| `lira_utils.py` | Shared utilities (model, logit scoring, Gaussian functions) |
+| `lira_shadows.py` | Train shadow models + collect scores |
+| `lira_pub_eval.py` | Evaluate LiRA on pub.pt (local validation) |
+| `lira_sub.py` | Score priv.pt + generate submission.csv |
+| `README.md` | This file |
 
 ## Reproducing Best Result (LiRA)
 
