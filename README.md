@@ -9,17 +9,17 @@ Trustworthy Machine Learning course (2026).
 
 ## Repository Structure
 
-| File | Description |
-|---|---|
-| `conf.py` | Confidence-based attack |
-| `3_feature.py` | Three-feature attack (confidence + neg-loss + entropy) |
-| `rmia.py` | RMIA attack (Zarifzadeh et al., 2023) |
-| `lira_utils.py` | Shared utilities (model, logit scoring, Gaussian functions) |
-| `lira_shadows.py` | Train shadow models + collect scores |
-| `lira_pub_eval.py` | Evaluate LiRA on pub.pt (local validation) |
-| `lira_sub.py` | Score priv.pt + generate submission.csv |
-| `README.md` | This file |
-
+```
+.
+    conf.py              # Confidence-based attack
+    3_feature.py         # Three-feature attack (confidence + neg-loss + entropy)
+    rmia.py              # RMIA attack (Zarifzadeh et al., 2023)
+    lira_utils.py        # Shared utilities (model, logit scoring, Gaussian functions)
+    lira_shadows.py      # Train shadow models + collect scores
+    lira_pub_eval.py     # Evaluate LiRA on pub.pt (local validation)
+    lira_sub.py          # Score priv.pt + generate submission.csv
+    README.md
+```
 ## Reproducing Best Result (LiRA)
 
 ### Requirements
