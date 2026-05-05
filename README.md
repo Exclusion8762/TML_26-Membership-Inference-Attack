@@ -18,6 +18,7 @@ Trustworthy Machine Learning course (2026).
     lira_shadows.py      # Train shadow models + collect scores
     lira_pub_eval.py     # Evaluate LiRA on pub.pt (local validation)
     lira_sub.py          # Score priv.pt + generate submission.csv
+    submission.csv       # actual submitted csv file
     README.md
 ```
 ## Reproducing Best Result (LiRA)
